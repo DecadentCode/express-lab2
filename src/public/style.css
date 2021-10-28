@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 10px;
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(116, 252, 184);
+}
+
+a,
+p,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 24px;
+}
+
+.pizza-img {
+  width: 30%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-short {
+  width: 90px;
+}
+.radio-input {
+  display: flex;
+}

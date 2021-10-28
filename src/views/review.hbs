@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import
+      url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    </style>
+    <title>Review</title>
+  </head>
+  <body>
+    <h1>Leave a Review</h1>
+    <form action="/review-confirmation" method="POST">
+      <label for="name">Your Name
+        <input type="text" name="name" id="name" />
+      </label>
+      <label for="comment">comment
+        <textarea name="comment" id="comment" cols="40" rows="5"></textarea>
+      </label>
+      <p>Rating</p>
+      <div class="radio-input">
+        <label for="rating">5 (Best)</label>
+        <input type="radio" name="rating" id="rating" value="5" />
+        <label for="rating">4</label>
+        <input type="radio" name="rating" id="rating" value="4" />
+        <label for="rating">3</label>
+        <input type="radio" name="rating" id="rating" value="3" />
+        <label for="rating">2</label>
+        <input type="radio" name="rating" id="rating" value="2" />
+        <label for="rating">1 (worst)</label>
+        <input type="radio" name="rating" id="rating" value="1" />
+      </div>
+      <button>Submit</button>
+      <a href="/">Never Mind</a>
+    </form>
+  </body>
+</html>
